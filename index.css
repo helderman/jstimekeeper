@@ -1,5 +1,15 @@
-button {
-	padding: 12px;
+button#lap {
+	padding: 24px;
 	position: sticky;
 	top: 8px;
+	width: 100%;
+}
+
+li {
+	animation: glow 5s;
+}
+
+@keyframes glow {
+	from { background-color: gold;  }
+	to   { background-color: white; }
 }
