@@ -1,3 +1,7 @@
+* {
+	font-size: x-large;
+}
+
 button#lap {
 	padding: 24px;
 	position: sticky;
